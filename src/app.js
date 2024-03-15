@@ -22,7 +22,7 @@ app.post('/api/products', (req, res) => {
     res.status(201).json(pet)
 })
 
-module.exports = router
+//module.exports = router
 
 app.listen(8080, () => {
     console.log('Servidor listo!')

@@ -16,7 +16,7 @@ router.post('/', (req, res) => {
     const product = req.body
     product.id = Number.parseInt(Math.random() * 1000)
 
-    users.push(product)
+    products.push(product)
 
     res.status(201).json(product)
 })
